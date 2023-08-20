@@ -1,0 +1,5 @@
+Student            Age        Mobile
+-------           -----      --------
+
+M.A.Askat			24		1928874663
+Afia Aziza Asika			18		1983892838

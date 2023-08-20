@@ -1,0 +1,63 @@
+
+#include<stdio.h>
+int main()
+{
+    int i,j,n;
+    scanf("%d",&n);
+
+    for(i=1;i<=n;i++)
+    {
+        for(j=1;j<=n-i;j++)
+        {
+            printf("  ");
+        }
+        for(j=1;j<=i;j++)
+        {
+            printf("%d ",j);
+        }
+        for(j=i;j>=1;j--)
+        {
+            if(j-1 == 0)
+            {
+                continue;
+            }
+            else
+            {
+                printf("%d ",j-1);
+            }
+
+        }
+        printf("\n");
+    }
+    for(i=n-1;i>=1;i--)
+    {
+        for(j=1;j<=n-i;j++)
+        {
+            printf("  ");
+        }
+        for(j=1;j<=i;j++)
+        {
+            printf("%d ",j);
+        }
+        for(j=i;j>=1;j--)
+        {
+            if(j-1 == 0)
+            {
+                continue;
+            }
+            else
+            {
+                printf("%d ",j-1);
+            }
+
+        }
+        printf("\n");
+    }
+
+
+}
+
+
+
+
+
